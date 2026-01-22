@@ -1,0 +1,177 @@
+================================================================================
+                    CURRICULUM VITAE - BYRON RAMIRO LÓPEZ CHÁVEZ
+================================================================================
+
+INFORMACIÓN DE CONTACTO
+================================================================================
+Nombre Completo:        Byron Ramiro López Chávez
+Teléfono:               (+593) 0980599297
+Email:                  byronlopezec@gmail.com
+Puesto Actual:          Ingeniero de Aseguramiento de Calidad de Software
+
+
+I. PERFIL PROFESIONAL
+================================================================================
+Ingeniero QA con más de 5 años de experiencia en desarrollo de software y 
+aseguramiento de calidad, con enfoque en el sector financiero. Lidero la 
+gestión de pruebas manuales/automatizadas utilizando herramientas como 
+Serenity, Cypress, KarateDSL, k6, Appium, entre otras. Mis 2 años de 
+experiencia como desarrollador en el sector comercial han fortalecido mis 
+habilidades, contribuyendo a la mejora continua de la calidad de los productos.
+
+
+II. CONOCIMIENTOS
+================================================================================
+Leyenda:
+- EXPERTO ⭐⭐⭐⭐⭐
+- AVANZADO ⭐⭐⭐⭐
+- COMPETENTE ⭐⭐⭐
+- PRINCIPIANTE ⭐⭐
+
+PLATAFORMAS Y LIBRERÍAS
+-----------------------
+• ReactJS                           (COMPETENTE)
+• Redux                             (COMPETENTE)
+• Django                            (PRINCIPIANTE)
+• Angular 7+                        (COMPETENTE)
+• JAVA EE (EJB JSF)                (COMPETENTE)
+
+TESTING
+-------
+• Postman                           (EXPERTO)
+• KarateDSL                         (AVANZADO)
+• K6 Performance Testing            (EXPERTO)
+• SerenityBdd                       (COMPETENTE)
+• Cypress                           (COMPETENTE)
+• APPIUM                            (COMPETENTE)
+• PyTest                            (COMPETENTE)
+• Selenium                          (COMPETENTE)
+
+LENGUAJES
+---------
+• JavaScript                        (AVANZADO)
+• Java                              (COMPETENTE)
+• Python                            (COMPETENTE)
+
+BASE DE DATOS
+-------------
+• PostgreSQL                        (COMPETENTE)
+• MySQL                             (COMPETENTE)
+• Informix                          (COMPETENTE)
+
+CONTROL DE VERSIONES
+--------------------
+• Git                               (AVANZADO)
+• GitHub                            (AVANZADO)
+• Azure Repos                       (AVANZADO)
+
+OTROS
+-----
+• Sonarcloud                        (COMPETENTE)
+• Metodologías Ágiles              (AVANZADO)
+• AzureDevops                       (COMPETENTE)
+• Jira                              (AVANZADO)
+• Gradle                            (COMPETENTE)
+• Xray                              (COMPETENTE)
+
+
+III. EXPERIENCIA LABORAL
+================================================================================
+
+1. EASYSOFT (may. 2024 – actualidad)
+   Puesto: Ingeniero de Control de Calidad
+   
+   Responsabilidades:
+   ✓ Diseño y desarrollo de framework de pruebas automatizadas modulares, 
+     reutilizables y ejecutables en paralelo.
+   ✓ Desarrollo scripts automatizados para mejorar la calidad del software y 
+     reducir los tiempos de pruebas manuales.
+   ✓ Coordinación con equipos multidisciplinarios para implementar estrategias 
+     de pruebas automatizadas alineadas con los objetivos del proyecto.
+
+
+2. DEVSU (ago. 2021 – abr. 2024)
+   Puesto: Ingeniero de Control de Calidad
+   
+   Responsabilidades:
+   ✓ Gestión del aseguramiento de calidad en una célula transversal del Banco 
+     Pichincha, focalizándome en la evaluación de la funcionalidad y el 
+     rendimiento de los microservicios.
+   ✓ Desarrollo de arquetipos y scripts automatizados para potenciar la 
+     cobertura de pruebas y optimizar el sistema.
+   ✓ Automatización de pruebas en los niveles de aceptación, integración y E2E, 
+     integrándolas de manera efectiva en los pipelines de DevOps.
+
+
+3. TIPTI S.A (mar. 2021 – jun. 2021)
+   Puesto: Desarrollador Auxiliar (Prácticas)
+   
+   Responsabilidades:
+   ✓ Capacitación en desarrollo web con Django, JavaScript y Python.
+   ✓ Planificación y diseño de pruebas a APIs funcionales con Postman.
+
+
+4. ECUAWAGEN S.A (feb. 2020 – sep. 2020)
+   Puesto: Desarrollador Web
+   
+   Responsabilidades:
+   ✓ Desarrollo de backend y frontend para la migración y optimización del 
+     sistema antiguo. Se trabajó bajo la plataforma JAVA EE 
+     (JPA 2.1/Eclipselink, EJB, JSF, Primefaces).
+   ✓ Diseño e implementación de interfaces de usuario UI con buenas prácticas 
+     de programación (SOLID) y patrones de diseño como DAO, DTO y MVC.
+
+
+5. AGRO PERCEPTION S.A (oct. 2018 – feb. 2019)
+   Puesto: Desarrollador de Software (Prácticas)
+   
+   Responsabilidades:
+   ✓ Desarrollo de backend programando AWS Lambdas en Python y usando PostgreSQL.
+   ✓ Desarrollo de frontend usando React.js y Redux.
+
+
+IV. INFORMACIÓN ADICIONAL
+================================================================================
+
+Formación Académica:
+Escuela Politécnica Nacional - Ingeniería en Sistemas Informáticos y de 
+Computación (Titulado)
+
+Idiomas Extranjeros:
+Inglés – A2
+
+
+V. CURSOS Y SEMINARIOS
+================================================================================
+
+UDEMY
+-----
+• GIT+Github: Todo un sistema de control de versiones de cero (ago. 2023)
+• Devops y cloud con azure devops, app service pipelines y git (feb. 2023)
+• Karate DSL: API Automation and Performance from Zero to Hero (may. 2022)
+• Certified Tester ISTQB® Foundation Level (CTFL) (sep. 2021)
+• ISTQB® Agile Tester Certification Training (sep. 2021)
+
+BANCO PICHINCHA
+---------------
+• Adopción Gobierno Calidad TI (abr. 2023)
+• Adopción del Gobierno de Automatización de Pruebas (abr. 2023)
+• Api Testing - Cloud & Devops (ago. 2022)
+• Pruebas Automatizadas (ago. 2022)
+
+
+VI. REFERENCIAS LABORALES
+================================================================================
+
+1. Ing. Diego Fuentes
+   Arquitecto de Integración - Banco Pichincha
+   Teléfono: (+593) 998870902
+
+2. Ing. Mariana Anzules, Msc.
+   Experta Gobierno de Datos – Banco Pichincha
+   Teléfono: (+593) 987863235
+
+
+================================================================================
+Documento generado: 22 de enero de 2026
+================================================================================
