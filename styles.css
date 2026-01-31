@@ -74,8 +74,7 @@ body {
 }
 
 .profile-photo img {
-    width: 100%;
-    height: 100%;
+    width: 100%;    
     object-fit: cover;
 }
 
@@ -128,15 +127,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 28px;
-    height: 28px;
+    width: 40px;
+    height: 40px;
     border: 2px solid var(--primary);
     border-radius: 50%;
     text-decoration: none;
     color: var(--primary);
     font-weight: var(--fw-bold);
-    font-size: var(--fs-sm);
-    transition: all 0.3s;
+    font-size: 1.1em;
 }
 
 .social-links a:hover {
@@ -181,14 +179,14 @@ body {
 .sidebar-skills li {
     color: #555;
     margin-bottom: 2px;
-    padding-left: 14px;
+    padding-left: 10px;
     position: relative;
 }
 
 .sidebar-skills li:before {
     content: "▸";
     position: absolute;
-    left: 0;
+    left: -2px;
     color: var(--primary);
     font-weight: bold;
     font-size: 0.8em;
@@ -256,6 +254,35 @@ h2 {
     text-align: justify;
     line-height: var(--lh-relaxed);
     color: var(--text);
+}
+
+/* Competencias Clave */
+.main-content div[style*="grid"] {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #f9f9f9;
+    border-radius: 4px;
+}
+
+.main-content div[style*="grid"] div {
+    padding: 0;
+}
+
+.main-content div[style*="grid"] strong {
+    color: var(--primary);
+    font-weight: var(--fw-bold);
+}
+
+.main-content div[style*="grid"] ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main-content div[style*="grid"] li {
+    color: #555;
+    font-size: var(--fs-lg);
+    line-height: var(--lh-relaxed);
 }
 
 
@@ -390,7 +417,6 @@ h2 {
     border: none;
     border-radius: 6px;
     cursor: pointer;
-    transition: all 0.3s;
     font-weight: var(--fw-semibold);
     background: var(--accent);
     color: white;
@@ -398,8 +424,6 @@ h2 {
 
 .btn-print:hover {
     background: #e67e00;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(255, 140, 0, 0.3);
 }
 
 /* Responsive Design */
@@ -435,8 +459,9 @@ h2 {
         margin: 0 !important;
         padding: 0 !important;
         width: 100%;
-        height: auto;
+        height: 100%;
         background: white !important;
+        font-size: 13px;
     }
 
     .container {
@@ -445,50 +470,58 @@ h2 {
         margin: 0 !important;
         padding: 0 !important;
         width: 100%;
-        height: auto;
+        min-height: 100%;
     }
 
     .wrapper {
         display: grid;
-        grid-template-columns: 220px 1fr;
+        grid-template-columns: 30% 70%;
         margin: 0 !important;
         padding: 0 !important;
         width: 100%;
-        height: auto;
+        min-height: 100%;
     }
 
     .sidebar {
         border-right: 2px solid var(--border);
-        padding: 12px 10px !important;
+        padding: 14px 12px !important;
         margin: 0 !important;
         overflow: visible !important;
     }
 
     .profile-photo {
-        width: 80px;
-        height: 80px;
+        width: 92px;
+        height: 92px;
         border: 2px solid var(--primary);
-        margin: 0 0 8px 0 !important;
+        margin: 0 0 10px 0 !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+
+    .profile-photo img {
+        width: 100%;
+        object-fit: cover;
+        image-rendering: crisp-edges;
     }
 
     .first-name {
-        font-size: 1.15em;
+        font-size: 1.25em;
         margin: 0 !important;
     }
 
     .last-name {
-        font-size: 1em;
+        font-size: 1.1em;
         margin: 0 !important;
     }
 
     .job-title {
-        font-size: 0.75em;
+        font-size: 0.85em;
         margin: 0 0 8px 0 !important;
-        line-height: 1.2;
+        line-height: 1.25;
     }
 
     .contact-info {
-        font-size: 0.7em;
+        font-size: 0.78em;
         margin: 0 0 8px 0 !important;
     }
 
@@ -503,9 +536,9 @@ h2 {
     }
 
     .social-links a {
-        width: 24px;
-        height: 24px;
-        font-size: 0.7em;
+        width: 28px;
+        height: 28px;
+        font-size: 0.8em;
     }
 
     .sidebar-skills {
@@ -517,7 +550,7 @@ h2 {
     }
 
     .sidebar-skills h3 {
-        font-size: 0.8em;
+        font-size: 0.9em;
         margin: 0 0 6px 0 !important;
     }
 
@@ -526,15 +559,15 @@ h2 {
     }
 
     .skill-category-label {
-        font-size: 0.65em;
+        font-size: 0.7em;
         margin: 0 0 3px 0 !important;
     }
 
     .sidebar-skills ul {
-        font-size: 0.7em;
+        font-size: 0.78em;
         margin: 0 !important;
         padding: 0 !important;
-        line-height: 1.3;
+        line-height: 1.35;
     }
 
     .sidebar-skills li {
@@ -553,24 +586,24 @@ h2 {
     }
 
     .additional-info h3 {
-        font-size: 0.75em;
+        font-size: 0.85em;
         margin: 0 0 4px 0 !important;
     }
 
     .additional-info p {
-        font-size: 0.7em;
+        font-size: 0.78em;
         margin: 0 0 2px 0 !important;
-        line-height: 1.2;
+        line-height: 1.3;
     }
 
     .main-content {
-        padding: 10px 15px !important;
+        padding: 14px 18px !important;
         margin: 0 !important;
         overflow: visible !important;
     }
 
     h2 {
-        font-size: 1em;
+        font-size: 1.1em;
         margin: 0 0 6px 0 !important;
         padding: 0 !important;
         font-weight: 700;
@@ -582,8 +615,8 @@ h2 {
     }
 
     .main-content p {
-        font-size: 0.85em;
-        line-height: 1.4;
+        font-size: 0.95em;
+        line-height: 1.45;
         margin: 0 0 6px 0 !important;
         padding: 0 !important;
         text-align: left;
@@ -605,7 +638,7 @@ h2 {
     }
 
     .job h3 {
-        font-size: 0.9em;
+        font-size: 0.95em;
         margin: 0 0 2px 0 !important;
         padding: 0 !important;
         font-weight: 700;
@@ -617,7 +650,7 @@ h2 {
     }
 
     .position {
-        font-size: 0.8em;
+        font-size: 0.88em;
         margin: 0 0 3px 0 !important;
         padding: 0 !important;
         font-style: italic;
@@ -630,9 +663,9 @@ h2 {
     }
 
     .job ul li {
-        font-size: 0.8em;
+        font-size: 0.88em;
         padding: 0 0 0 15px !important;
-        line-height: 1.3;
+        line-height: 1.35;
         margin: 0 0 2px 0 !important;
     }
 
@@ -642,7 +675,7 @@ h2 {
     }
 
     .certifications h3 {
-        font-size: 0.85em;
+        font-size: 0.95em;
         margin: 6px 0 3px 0 !important;
         padding: 0 !important;
         font-weight: 700;
@@ -655,9 +688,9 @@ h2 {
     }
 
     .certifications li {
-        font-size: 0.8em;
+        font-size: 0.88em;
         padding: 0 0 0 15px !important;
-        line-height: 1.3;
+        line-height: 1.35;
         margin: 0 0 2px 0 !important;
     }
 
@@ -677,10 +710,10 @@ h2 {
     }
 
     .reference p {
-        font-size: 0.8em;
+        font-size: 0.85em;
         margin: 0 0 2px 0 !important;
         padding: 0 !important;
-        line-height: 1.3;
+        line-height: 1.35;
     }
 
     .reference p:last-child {
@@ -693,6 +726,6 @@ h2 {
 
     @page {
         size: A4;
-        margin: 10mm !important;
+        margin: 6mm !important;
     }
 }

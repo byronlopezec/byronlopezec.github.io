@@ -5,7 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Byron López - QA Engineer</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" media="all">
+    <style media="print">
+        @page { margin: 6mm; size: A4; }
+        body { margin: 0; padding: 0; }
+        .download-buttons { display: none !important; }
+    </style>
 
 </head>
 
@@ -14,7 +19,7 @@
         <div class="wrapper">
             <aside class="sidebar">
                 <div class="profile-photo">
-                    <img src="mi_perfil.jpg" alt="Byron López">
+                    <img src="mi_perfil.jpg" alt="Byron López" loading="lazy" decoding="async">
                 </div>
 
                 <div class="name-section">
@@ -28,21 +33,22 @@
                     <p class="phone">📱 (+593) 0980599297</p>
                     <p class="email">📧 byronlopezec@gmail.com</p>
                     <div class="social-links">
-                        <a href="#" title="LinkedIn">in</a>
-                        <a href="#" title="GitHub">⚙️</a>
+                        <a href="https://www.linkedin.com/in/byronlopez21/" target="_blank" title="LinkedIn">in</a>
+                        <a href="https://github.com/byronlopezec/" target="_blank" title="GitHub">⊙</a>
                     </div>
                 </div>
 
                 <div class="sidebar-skills">
-                    <h3>CONOCIMIENTOS</h3>
+                    <h3>COMPETENCIAS CLAVE</h3>
                     <div class="skill-group">
-                        <p class="skill-category-label">Testing</p>
+                        <p class="skill-category-label">Automatización</p>
                         <ul>
-                            <li>Postman</li>
-                            <li>K6</li>
-                            <li>KarateDSL</li>
                             <li>Cypress</li>
-                            <li>Selenium</li>
+                            <li>SerenityBDD</li>
+                            <li>KarateDSL</li>
+                            <li>Postman</li>
+                            <li>Appium</li>
+                            <li>PyTest</li>
                         </ul>
                     </div>
                     <div class="skill-group">
@@ -54,87 +60,78 @@
                         </ul>
                     </div>
                     <div class="skill-group">
-                        <p class="skill-category-label">Otros</p>
+                        <p class="skill-category-label">DevOps & Cloud</p>
                         <ul>
-                            <li>Git</li>
-                            <li>PostgreSQL</li>
-                            <li>Jira</li>
                             <li>Azure DevOps</li>
+                            <li>Git / GitHub</li>
+                            <li>CI/CD Pipelines</li>
+                            <li>Jira / Xray</li>
                         </ul>
                     </div>
                 </div>
 
                 <div class="additional-info">
-                    <h3>INFORMACIÓN ADICIONAL</h3>
-                    <p><strong>Formación:</strong> Escuela Politécnica Nacional. Ingeniería en Sistemas Informáticos y
-                        de Computación (Titulado).</p>
-                    <p><strong>Idiomas:</strong> Inglés – A2</p>
+                    <h3>EDUCACIÓN</h3>
+                    <p><strong>Institución:</strong> Escuela Politécnica Nacional (EPN)</p>
+                    <p><strong>Carrera:</strong> Ingeniería en Sistemas Informáticos y de Computación</p>
+                    <p><strong>Certificaciones:</strong> ISTQB® Foundation Level 4.0</p>
                 </div>
             </aside>
 
             <main class="main-content">
 
                 <h2>I. PERFIL PROFESIONAL</h2>
-                <p>Ingeniero QA con más de 5 años de experiencia en desarrollo de software y aseguramiento de calidad,
-                    con enfoque en el sector financiero. Lidero la gestión de pruebas manuales/automatizadas utilizando
-                    herramientas como Serenity, Cypress, KarateDSL, k6, Appium, entre otras. Mis 2 años de experiencia
-                    como desarrollador en el sector comercial han fortalecido mis habilidades, contribuyendo a la mejora
-                    continua de la calidad de los productos.</p>
-
+                <p>Ingeniero QA con más de 5 años de experiencia en desarrollo de software y aseguramiento de calidad, con enfoque en el sector financiero. Lidero la gestión de pruebas manuales/automatizadas utilizando herramientas como Serenity, Cypress, KarateDSL, k6, Git, entre otras. Mis 2 años de experiencia como desarrollador en el sector comercial han fortalecido mis habilidades, contribuyendo a la mejora continua de la calidad de los productos. Mi objetivo es participar en proyectos destacados y reconocidos a nivel global, dejando una huella en el mundo tecnológico.</p>    
+                </br>
                 <h2>II. EXPERIENCIA LABORAL</h2>
                 <div class="experience">
                     <div class="job">
                         <h3>Tata Consultancy Services <span class="date">(jun. 2024 – actualidad)</span></h3>
-                        <p class="position">QA Automation Engineer:</p>
+                        <p class="position">QA Automation Engineer</p>
                         <ul>
-                            <li>Gestión de calidad en aplicativos de Canales Digitales para el cliente de Banco Pichincha.</li>
-                            <li>Pruebas automatizadas de software.</li>
+                            <li>Liderazgo en gestión de calidad para aplicativos digitales de Banco Pichincha, supervisando pruebas funcionales y ejecución de casos de prueba en múltiples ambientes.</li>
+                            <li>Realización de pruebas de rendimiento para los servicios que consumen los canales digitales, identificando cuellos de botella y recomendando optimizaciones.</li>
+                            <li>Manejo integral de gestión de riesgos de calidad, identificando defectos críticos y realizando análisis de impacto en los procesos de negocio.</li>
+                            <li>Documentación de defectos, seguimiento y coordinación con equipos de desarrollo para resolución efectiva de issues.</li>
                         </ul>
                     </div>
                     <div class="job">
                         <h3>DEVSU <span class="date">(ago. 2021 – abr. 2024)</span></h3>
-                        <p class="position">QA Automation Engineer:</p>
+                        <p class="position">QA Automation Engineer</p>
                         <ul>
-                            <li>Gestión del aseguramiento de calidad en una célula transversal del Banco Pichincha,
-                                focalizándome en la evaluación de la funcionalidad y el rendimiento de los
-                                microservicios.</li>
-                            <li>Desarrollo de arquetipos y scripts automatizados para potenciar la cobertura de pruebas
-                                y optimizar el sistema.</li>
-                            <li>Automatización de pruebas en los niveles de aceptación, integración y E2E, integrándolas
-                                de manera efectiva en los pipelines de DevOps.</li>
+                            <li>Gestión del aseguramiento de calidad en célula transversal de Banca, especializándome en evaluación de funcionalidad y rendimiento de microservicios.</li>
+                            <li>Desarrollo de arquetipos reutilizables y frameworks de testing automatizados con Serenity, mejorando eficiencia del equipo de pruebas.</li>
+                            <li>Automatización de pruebas en niveles Aceptación, Integración y E2E con Cypress, KarateDSL, integradas efectivamente en pipelines CI/CD.</li>
+                            <li>Implementación de testing de rendimiento con K6, identificando cuellos de botella y optimizando performance de APIs.</li>
                         </ul>
                     </div>
                     <div class="job">
                         <h3>TIPTI S.A <span class="date">(mar. 2021 – jun. 2021)</span></h3>
-                        <p class="position">Desarrollador Auxiliar (Prácticas):</p>
+                        <p class="position">Desarrollador Auxiliar (Prácticas)</p>
                         <ul>
-                            <li>Capacitación en desarrollo web con Django, JavaScript y Python.</li>
-                            <li>Planificación y diseño de pruebas a APIs funcionales con Postman.</li>
+                            <li>Capacitación en desarrollo web full-stack con Django, JavaScript y Python en metodología Agile.</li>
+                            <li>Diseño y ejecución de pruebas funcionales a APIs con Postman, documentando casos de prueba integral.</li>
                         </ul>
                     </div>
                     <div class="job">
                         <h3>ECUAWAGEN S.A <span class="date">(feb. 2020 – sep. 2020)</span></h3>
-                        <p class="position">Desarrollador Web:</p>
+                        <p class="position">Desarrollador Web</p>
                         <ul>
-                            <li>Desarrollo de backend y frontend para la migración y optimización el sistema antiguo. Se
-                                trabajó bajo la plataforma JAVA EE (JPA 2.1/Eclipselink, EJB, JSF, Primefaces).</li>
-                            <li>Diseño e implementación de interfaces de usuario UI con buenas prácticas de programación
-                                (SOLID) y patrones de diseño como DAO, DTO y MVC.</li>
+                            <li>Desarrollo de backend y frontend para migración de sistema legacy, optimizando performance e implementando mejoras significativas. Tecnologías: JAVA EE (JPA 2.1, EJB, JSF, Primefaces).</li>
+                            <li>Diseño e implementación de interfaces UI con arquitectura SOLID, patrones DAO, DTO y MVC, mejorando mantenibilidad del código.</li>
                         </ul>
                     </div>
                     <div class="job">
                         <h3>AGRO PERCEPTION S.A <span class="date">(oct. 2018 – feb. 2019)</span></h3>
-                        <p class="position">Desarrollador de Software (Prácticas):</p>
+                        <p class="position">Desarrollador de Software (Prácticas)</p>
                         <ul>
-                            <li>Desarrollo de backend programando AWS Lambdas en Python y usando PostgreSQL.</li>
-                            <li>Desarrollo de frontend usando React.js y Redux.</li>
+                            <li>Desarrollo de backend con AWS Lambdas en Python y PostgreSQL, procesando datos de forma eficiente.</li>
+                            <li>Desarrollo de frontend con React.js y Redux, implementando componentes reutilizables y funcionales.</li>
                         </ul>
                     </div>
                 </div>
 
-
-
-                <h2>III. CURSOS Y SEMINARIOS</h2>
+                <h2>III. CERTIFICACIONES</h2>
                 <div class="certifications">
                     <h3>UDEMY</h3>
                     <ul>
