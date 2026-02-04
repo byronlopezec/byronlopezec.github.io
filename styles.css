@@ -97,11 +97,11 @@ body {
 }
 
 .job-title {
-    font-size: var(--fs-md);
+    font-size: var(--fs-xl);
     color: var(--secondary);
-    font-weight: var(--fw-semibold);
+    font-weight: var(--fw-bold);
     margin-bottom: 15px;
-    line-height: var(--lh-normal);
+    line-height: var(--lh-tight);
 }
 
 .contact-info {
