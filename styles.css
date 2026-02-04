@@ -222,19 +222,20 @@ body {
     display: inline-block;
     font-size: var(--fs-xs);
     font-weight: var(--fw-semibold);
-    color: white;
-    background: linear-gradient(135deg, var(--primary) 0%, #0052a3 100%);
+    color: var(--primary);
+    background: white;
     padding: 3px 7px;
     border-radius: 12px;
+    border: 1.5px solid var(--primary);
     transition: all 0.2s ease;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12);
     cursor: default;
 }
 
 .skill-pill:hover {
     transform: scale(1.05);
-    box-shadow: 0 2px 6px rgba(0,102,204,0.3);
-    background: linear-gradient(135deg, #0052a3 0%, var(--primary) 100%);
+    background: var(--primary);
+    color: white;
+    box-shadow: 0 2px 6px rgba(0,102,204,0.2);
 }
 
 /* Additional Info */
@@ -642,7 +643,9 @@ h2 {
     .skill-pill {
         font-size: 0.68em !important;
         padding: 2px 5px !important;
-        background: var(--primary) !important;
+        background: white !important;
+        color: var(--primary) !important;
+        border: 1px solid var(--primary) !important;
         box-shadow: none !important;
     }
 
