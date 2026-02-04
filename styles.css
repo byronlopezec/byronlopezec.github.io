@@ -111,9 +111,23 @@ body {
 }
 
 .phone,
-.email {
+.email,
+.website {
     margin-bottom: 6px;
     line-height: var(--lh-tight);
+}
+
+.website a {
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: var(--fw-semibold);
+    transition: all 0.2s ease;
+    border-bottom: 1px solid transparent;
+}
+
+.website a:hover {
+    color: var(--accent);
+    border-bottom-color: var(--accent);
 }
 
 .social-links {
@@ -581,10 +595,16 @@ h2 {
         margin: 0 0 8px 0 !important;
     }
 
-    .phone, .email {
+    .phone, .email, .website {
         margin: 0 !important;
         padding: 0 !important;
         line-height: 1.2;
+    }
+
+    .website a {
+        color: var(--primary) !important;
+        text-decoration: none !important;
+        border-bottom: none !important;
     }
 
     .social-links {
