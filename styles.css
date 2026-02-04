@@ -119,27 +119,44 @@ body {
 .social-links {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 12px;
     margin-top: 12px;
 }
 
-.social-links a {
-    display: flex;
+.social-link {
+    display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 40px;
-    height: 40px;
-    border: 2px solid var(--primary);
+    width: 42px;
+    height: 42px;
     border-radius: 50%;
     text-decoration: none;
-    color: var(--primary);
-    font-weight: var(--fw-bold);
-    font-size: 1.1em;
+    border: 2px solid transparent;
+    transition: transform 0.15s ease, box-shadow 0.15s ease, opacity 0.15s ease;
 }
 
-.social-links a:hover {
-    background: var(--primary);
-    color: white;
+.social-link svg {
+    width: 22px;
+    height: 22px;
+    fill: currentColor;
+}
+
+.social-link.linkedin {
+    background: #0a66c2;
+    color: #ffffff;
+    border-color: #0a66c2;
+}
+
+.social-link.github {
+    background: #111111;
+    color: #ffffff;
+    border-color: #111111;
+}
+
+.social-link:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.18);
+    opacity: 0.95;
 }
 /* Skills Section */
 .sidebar-skills {
@@ -376,6 +393,17 @@ h2 {
     font-size: 0.6em;
 }
 
+.certifications a {
+    color: #555;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.certifications a:hover {
+    color: var(--primary);
+    text-decoration: underline;
+}
+
 /* References */
 .references {
     display: grid;
@@ -535,10 +563,14 @@ h2 {
         margin-top: 6px !important;
     }
 
-    .social-links a {
+    .social-link {
         width: 28px;
         height: 28px;
-        font-size: 0.8em;
+    }
+
+    .social-link svg {
+        width: 14px;
+        height: 14px;
     }
 
     .sidebar-skills {
@@ -692,6 +724,11 @@ h2 {
         padding: 0 0 0 15px !important;
         line-height: 1.35;
         margin: 0 0 2px 0 !important;
+    }
+
+    .certifications a {
+        color: #555 !important;
+        text-decoration: none !important;
     }
 
     .references {
