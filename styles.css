@@ -897,6 +897,12 @@ h2 {
         padding: 0 !important;
     }
 
+    .main-content > h2:nth-of-type(3) {
+        page-break-before: always;
+        padding-top: 0 !important;
+        border-top: none !important;
+    }
+
     .certifications h3 {
         font-size: 0.85em;
         margin: 6px 0 3px 0 !important;
