@@ -98,10 +98,30 @@ body {
 
 .job-title {
     font-size: var(--fs-xl);
+    color: var(--primary);
+    font-weight: var(--fw-bold);
+    margin-bottom: 15px;
+    line-height: var(--lh-tight);
+}
+
+.istqb-certified {
+    font-size: var(--fs-lg);
     color: var(--secondary);
     font-weight: var(--fw-bold);
     margin-bottom: 15px;
     line-height: var(--lh-tight);
+}
+
+.istqb-certified a {
+    color: var(--secondary);
+    text-decoration: none;
+    transition: all 0.2s ease;
+    border-bottom: 2px solid transparent;
+}
+
+.istqb-certified a:hover {
+    color: var(--primary);
+    border-bottom-color: var(--primary);
 }
 
 .contact-info {
@@ -895,12 +915,21 @@ h2 {
     .certifications {
         margin: 0 !important;
         padding: 0 !important;
+        page-break-inside: avoid !important;
+        break-inside: avoid !important;
     }
 
     .main-content > h2:nth-of-type(3) {
-        page-break-before: always;
         padding-top: 0 !important;
         border-top: none !important;
+        page-break-inside: avoid !important;
+        break-inside: avoid !important;
+        page-break-after: avoid !important;
+    }
+    
+    .main-content > h2:nth-of-type(3) + .certifications {
+        page-break-inside: avoid !important;
+        break-inside: avoid !important;
     }
 
     .certifications h3 {
